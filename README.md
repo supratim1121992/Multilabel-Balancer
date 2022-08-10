@@ -12,7 +12,7 @@ The utility function provided here implements class imabalance correction by set
  * **id:** The unique identifier column name (image_name in sample).
  * **lab:** The target column name with the labels.
  * **maj_cls:** The majority class value (0 in sample).
- * **trs:** (*Default 1*) The initiating threshold to be used. 1 indicates that any images with 100% of the claases belonging to the majority class are removed.
+ * **trs:** (*Default 1*) The initiating threshold to be used. 1 indicates that any images with 100% of the classes belonging to the majority class are removed.
  * **trs_red:** (*Default 0.005*) The amount by which the initiating threshold is reduced at every iteration to attain the minimum optimal threshold.
  * **trd_rat:** (*Default 5*) The minimum tradeoff ratio to consider for dropping samples. 5 indicates that for each case of the most infrequent minority class, at least 5 cases of the majority class should also be removed.
   
