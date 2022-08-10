@@ -1,5 +1,5 @@
 # Multilabel-Balancer
-Utility function to correct class imbalance in image annotations with multiple objects/labels.
+Utility function to correct class imbalance in image annotation data with multiple objects/labels.
 
 Considering a data structure similar to the one displayed below where a majority class (0 in this case) is present in the dataset, it might be difficult to correct class imabalance by excluding certain images without losing some of the minority classes as well.
 
