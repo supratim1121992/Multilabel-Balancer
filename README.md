@@ -1,7 +1,7 @@
 # Multilabel-Balancer
 Utility function to correct class imbalance in image annotation data with multiple objects/labels.
 
-Considering a data structure similar to the one displayed below where a majority class (0 in this case) is present in the dataset, it might be difficult to correct class imabalance by excluding certain images without losing some of the minority classes as well.
+Considering a data structure similar to the one displayed below where a majority class (0 in this case) is present in the dataset, it might be difficult to correct class imbalance by excluding certain images without losing some of the minority classes as well.
 
 ![Sample Data](https://github.com/supratim1121992/Multilabel-Balancer/blob/main/Sample_Data.png?raw=true)
 
